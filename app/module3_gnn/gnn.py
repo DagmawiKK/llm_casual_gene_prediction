@@ -4,7 +4,7 @@ from torch_geometric.data import Data
 
 from .model import FusionGeneGNN
 
-from module1_finetune_llm.finetuned_model import (
+from app.module1_finetune_llm.finetuned_model import (
     predict_causal_gene_llm,
     finetuned_llm_model,
     finetuned_llm_tokenizer

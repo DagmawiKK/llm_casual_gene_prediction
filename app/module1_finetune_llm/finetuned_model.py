@@ -14,7 +14,7 @@ DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 MAX_LENGTH = 128
 
 # Define paths relative to the project root
-ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../.."))
 OUTPUT_MERGED_MODEL_PATH = os.path.join(ROOT_DIR, "biobert_finetuned_model_merged")
 OUTPUT_ADAPTER_PATH = os.path.join(ROOT_DIR, "biobert_finetuned_adapter")
 
