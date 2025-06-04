@@ -15,6 +15,10 @@ __pycache__/
 build/
 develop-eggs/
 dist/
+/biobert_finetuned_adapter
+/biobert_finetuned_model_merged
+fusion_gene_gnn_bundle.pth
+model_state_dict.pth
 downloads/
 eggs/
 .eggs/
