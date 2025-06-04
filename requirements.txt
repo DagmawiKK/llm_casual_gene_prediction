@@ -1,0 +1,15 @@
+fastapi==0.115.0
+uvicorn==0.30.6
+sqlalchemy==2.0.35
+pydantic==2.9.2
+celery==5.4.0
+redis==5.0.8
+torch==2.0.0
+torch-geometric==2.5.3
+torch-scatter==2.1.2
+torch-sparse==0.6.18
+torch-cluster==1.6.3
+transformers==4.44.2
+psycopg2-binary==2.9.9
+alembic==1.13.3
+pandas==2.2.3
